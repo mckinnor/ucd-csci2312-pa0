@@ -8,7 +8,9 @@
 
 int main() {
     // TODO Substitute 11 with your UCD ID number, modulo 13 (myId % 13)
-    std::cout << "Hello, world! My number is " << 11 << '!' << std::endl;
+    int myId = 104787486;
+    int myNum = myId%13;
+    std::cout << "Hello, world! My number is " << myNum << '!' << std::endl;
 
     return 0;
 }
